@@ -1,0 +1,6 @@
+container_name: nicks_test_app
+image_name: nginx          # Replace with your image (e.g. "myuser/myimage")
+image_tag: latest
+host_port: 8080            # Port on your Mac
+container_port: 80         # Port inside the container
+restart_policy: unless-stopped
